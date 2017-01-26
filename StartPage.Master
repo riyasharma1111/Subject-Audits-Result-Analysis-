@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="StartPage.master.cs" Inherits="SubjectAudit.StartPage1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 744px; width: 1252px;background-image:url('adsfghh.jpg')">
+    <form id="form1" runat="server">
+        <asp:Image ID="Image1" runat="server" Height="143px" ImageUrl="~/3.jpg" style="margin-left: 61px" Width="1187px" />
+        <div style="height: 410px; width: 1041px; margin-left: 119px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div style="height: 141px">
+            <asp:ImageButton ID="ImageButton1" runat="server" BorderStyle="Double" Height="99px" ImageUrl="~/5.jpg" PostBackUrl="~/AdminLogin.aspx" style="margin-left: 190px; margin-top: 23px" Width="99px" OnClick="ImageButton1_Click" OnClientClick="~/AdminLogin.aspx" BorderColor="White" BorderWidth="3px" />
+            <asp:ImageButton ID="ImageButton2" runat="server" BorderStyle="Double" Height="99px" ImageUrl="~/6.jpg" style="margin-left: 224px" Width="99px" OnClick="ImageButton2_Click" BorderColor="White" BorderWidth="3px" />
+            <asp:ImageButton ID="ImageButton3" runat="server" BorderStyle="Double" Height="99px" ImageUrl="~/7.jpg" style="margin-left: 263px" Width="99px" OnClick="ImageButton3_Click" BorderColor="White" BorderWidth="3px" />
+        </div>
+    </form>
+</body>
+</html>
